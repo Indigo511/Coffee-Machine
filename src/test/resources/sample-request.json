@@ -1,0 +1,80 @@
+{
+  "outlets": 4,
+  "maxCapacity": {
+    "water": 500,
+    "coffee": 500,
+    "milk": 500,
+    "sugar": 500
+  },
+  "beverages": [
+    {
+      "name": "Latte",
+      "price": 123,
+      "recipe":{
+        "instructionList": ["extra cream"],
+        "ingredientMap": {
+          "sugar": 100,
+          "water": 100,
+          "milk": 200,
+          "coffee": 100
+        }
+      }
+    },
+    {
+      "name": "Espresso",
+      "price": 123,
+      "recipe":{
+        "instructionList": ["extra cream"],
+        "ingredientMap": {
+          "sugar": 100,
+          "water": 100,
+          "milk": 100,
+          "coffee": 200
+        }
+      }
+    },
+    {
+      "name": "Cappuccino",
+      "price": 123,
+      "recipe":{
+        "instructionList": ["extra cream"],
+        "ingredientMap": {
+          "sugar": 100,
+          "water": 30,
+          "milk": 70,
+          "coffee": 300
+        }
+      }
+    },
+    {
+      "name": "Mocha",
+      "price": 123,
+      "recipe":{
+        "instructionList": ["extra cream"],
+        "ingredientMap": {
+          "sugar": 100,
+          "water": 30,
+          "milk": 100,
+          "coffee": 200
+        }
+      }
+    },
+    {
+      "name": "AMERICANO",
+      "price": 123,
+      "recipe":{
+        "instructionList": ["extra cream"],
+        "ingredientMap": {
+          "sugar": 100,
+          "water": 30,
+          "milk": 100,
+          "coffee": 200
+        }
+      },
+      "commonIngredient": {
+        "sugar": 123,
+        "water": 123
+      }
+    }
+  ]
+}
